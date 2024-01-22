@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var List_1 = require("./List");
+var Student_1 = require("./Student");
+var list = new List_1.default(5);
+var student1 = new Student_1.default("hoang", "hoang@gmail.com");
+var student2 = new Student_1.default("hoang1", "hoang1@gmail.com");
+var student3 = new Student_1.default("hoang2", "hoang3@gmail.com");
+list.insert(student1);
+list.insert(student2);
+list.insert(student3);
+list.showList();
